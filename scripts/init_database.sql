@@ -56,48 +56,15 @@ USE DataWarehouse;
 GO
 
 -------------------------------------------------------------------------------
--- Create Bronze Schema (Raw Layer)
+-- Create Schemas
 -------------------------------------------------------------------------------
-IF NOT EXISTS
-(
-    SELECT 1
-    FROM sys.schemas
-    WHERE name = 'bronze'
-)
-BEGIN
-    EXEC('CREATE SCHEMA bronze');
-    PRINT 'Schema created: bronze';
-END;
+CREATE SCHEMA bronze;
 GO
 
--------------------------------------------------------------------------------
--- Create Silver Schema (Transformation Layer)
--------------------------------------------------------------------------------
-IF NOT EXISTS
-(
-    SELECT 1
-    FROM sys.schemas
-    WHERE name = 'silver'
-)
-BEGIN
-    EXEC('CREATE SCHEMA silver');
-    PRINT 'Schema created: silver';
-END;
+CREATE SCHEMA silver;
 GO
 
--------------------------------------------------------------------------------
--- Create Gold Schema (Business Layer)
--------------------------------------------------------------------------------
-IF NOT EXISTS
-(
-    SELECT 1
-    FROM sys.schemas
-    WHERE name = 'gold'
-)
-BEGIN
-    EXEC('CREATE SCHEMA gold');
-    PRINT 'Schema created: gold';
-END;
+CREATE SCHEMA gold;
 GO
 
 -------------------------------------------------------------------------------
