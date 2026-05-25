@@ -38,3 +38,20 @@ Develop SQL-based analytical solutions to generate business insights and support
 These analytics help stakeholders monitor KPIs, identify trends, and improve strategic planning.
 
 ---
+
+## 📍 License
+
+This project is licensed under the [MIT License](LICENSE).  You are free to use, modify, and distribute this project with proper attribution.
+
+## 🌟 About Me
+
+Hi there! I'm **Yash Kaushal**, a data analytics and SQL enthusiast passionate about building data-driven solutions and exploring modern data engineering concepts.
+
+This project reflects my learning journey in:
+- Data Warehousing
+- SQL Development
+- ETL Pipelines
+- Data Analytics
+- Business Intelligence
+
+Feel free to explore, fork, and contribute to the project!
